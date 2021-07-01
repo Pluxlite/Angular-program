@@ -1,7 +1,6 @@
 import { Component, OnInit , Input, Output, EventEmitter} from '@angular/core';
 import {Task} from '../../Task';
 import {faTimes} from '@fortawesome/free-solid-svg-icons';
-import { Console } from 'console';
 
 @Component({
   selector: 'app-task-item',

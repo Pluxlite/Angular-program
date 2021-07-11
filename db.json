@@ -23,6 +23,12 @@
       "text": "Dentist",
       "day": "May 8th at 12:30pm",
       "reminder": false
+    },
+    {
+      "text": "Pay Bills",
+      "day": "Tomorrow",
+      "reminder": true,
+      "id": 5
     }
   ]
 }

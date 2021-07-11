@@ -16,4 +16,15 @@ reminder: boolean = false;
   ngOnInit(): void {
   }
 
+  onSubmit(){
+    if(this.text){
+      alert('Please add a task');
+      return;
+    }
+
+    const newTask ={
+      
+    }
+  }
+
 }

@@ -11,7 +11,7 @@ export class HeaderComponent implements OnInit {
 
   title: string = 'Task Tracker';
   showAddTask: boolean = true;
-  subscription: Subscription;
+  subscription: Subscription = new Subscription();
 
   constructor(private uiService:UiService) { }
 
